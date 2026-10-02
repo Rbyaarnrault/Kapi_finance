@@ -10,7 +10,7 @@
 
   <br />
 
-  **Une application financière moderne inspirée de Finary, combinant suivi rigoureux de trésorerie et stratégies d'investissement passif (DCA, Bankroll & Rééquilibrage).**
+  **Une application financière moderne, combinant suivi mensuel de dépenses (récurrentes ou ponctuelles) et stratégies d'investissement passif (DCA, Bankroll...).**
 
   <br />
 
@@ -22,7 +22,7 @@
 
 ## 📌 Présentation du Projet
 
-**Kapi Finance** est né d'un constat simple : la plupart des applications financières séparent la gestion des dépenses quotidiennes du pilotage des investissements en bourse et cryptomonnaies.
+**Kapi Finance** est né d'un constat simple : Je n'ai trouvé aucune application sur le marché qui me permettent de calculer combien j'au d'argent sur mon compte, en comptant les dépenses effectuées qui ne sont pas encore passée (et qui parfois peuvent prendre plusieurs jours ou semaine comme Amazon). De plus la plupart des applications financières séparent la gestion des dépenses quotidiennes du pilotage des investissements en bourse et cryptomonnaies.
 
 L'objectif de Kapi est d'unifier ces deux piliers au sein d'une seule interface au design **Dark Luxury**, fluide et sécurisée :
 1. **Piloter sa trésorerie mensuelle** : Anticiper le solde bancaire réel à chaque cycle de paie.
@@ -90,21 +90,11 @@ L'objectif de Kapi est d'unifier ces deux piliers au sein d'une seule interface 
 
 ---
 
-## 🚀 Installation & Lancement en Local
+## 🚀 Utilisation de la webapp en mode client
 
 ### Prérequis
-- [Flutter SDK](https://docs.flutter.dev/get-started/install) (`>= 3.0.0`)
-- [Node.js](https://nodejs.org/) & Firebase CLI (`npm install -g firebase-tools`)
+- Un navigateur web (Chrome, Safari, Firefox, Eplorer...) 
 
-### Cloner et exécuter le projet
+### Accès
+https://kapi-finance.web.app/
 
-```bash
-# 1. Cloner le repository
-git clone [https://github.com/ton-profil/kapi_finance.git](https://github.com/ton-profil/kapi_finance.git)
-cd kapi_finance
-
-# 2. Récupérer les dépendances
-flutter pub get
-
-# 3. Lancer l'application en mode local (Chrome ou Windows natif)
-flutter run -d chrome
