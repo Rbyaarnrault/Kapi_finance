@@ -129,7 +129,7 @@ Authentification sécurisée : Délégation complète de la gestion des identifi
 
 
 ## 👨‍💻 Auteur & Contact
-Développé par Ryan Barrault, Fan d'applications utiles quotidienne, d'applications de jeux et d'animation(informatique graphique)
+Développé par Ryan Barrault, Fan d'applications utiles et quotidiennes, d'applications de jeux et d'animation(informatique graphique)
 
 GitHub : @Rbyaarnrault
 
