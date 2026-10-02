@@ -22,7 +22,7 @@
 
 ## 📌 Présentation du Projet
 
-**Kapi Finance** est né d'un constat simple : Je n'ai trouvé aucune application sur le marché qui me permettent de calculer combien j'au d'argent sur mon compte, en comptant les dépenses effectuées qui ne sont pas encore passée (et qui parfois peuvent prendre plusieurs jours ou semaine comme Amazon). De plus la plupart des applications financières séparent la gestion des dépenses quotidiennes du pilotage des investissements en bourse et cryptomonnaies.
+**Kapi Finance** est né d'un constat simple : Je n'ai trouvé aucune application sur le marché qui me permettent de calculer combien j'ai d'argent sur mon compte, en comptant les dépenses effectuées qui ne sont pas encore passées (et qui parfois peuvent prendre plusieurs jours ou semaines comme Amazon). De plus la plupart des applications financières séparent la gestion des dépenses quotidiennes du pilotage des investissements en bourse et cryptomonnaies.
 
 L'objectif de Kapi est d'unifier ces deux piliers au sein d'une seule interface au design **Dark Luxury**, fluide et sécurisée :
 1. **Piloter sa trésorerie mensuelle** : Anticiper le solde bancaire réel à chaque cycle de paie.
@@ -64,7 +64,7 @@ L'objectif de Kapi est d'unifier ces deux piliers au sein d'une seule interface 
   - Possibilité d'inclure ou d'exclure temporairement une dépense des calculs.
   - Menu contextuel fluide par appui long (Modification, Exclusion, Suppression).
 
-### 📈 2. Kapi Invest (Portfolio & Stratégie Patrimoniale)
+### 📈 2. Kapi Invest (Portefeuille & Stratégie Patrimoniale)
 - **Arborescence Réaliste** : `Établissement (Courtier / Banque)` ➔ `Enveloppe (PEA, CTO, Livret, Crypto)` ➔ `Actifs`.
 - **Intégration Yahoo Finance en Direct** :
   - Recherche universelle instantanée par **Nom**, **Ticker** ou code **ISIN**.
