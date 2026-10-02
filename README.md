@@ -6,7 +6,7 @@
   [![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev/)
   [![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)](https://firebase.google.com/)
   [![Yahoo Finance](https://img.shields.io/badge/Yahoo_Finance_API-6001D2?style=for-the-badge&logo=yahoo&logoColor=white)](https://finance.yahoo.com/)
-  [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+  
 
   <br />
 
