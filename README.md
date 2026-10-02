@@ -1,0 +1,110 @@
+<div align="center">
+
+  # 💎 Kapi Finance
+  ### Gestion de Budget Mensuel & Portfolio d'Investissement Multi-Actifs
+
+  [![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev/)
+  [![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)](https://firebase.google.com/)
+  [![Yahoo Finance](https://img.shields.io/badge/Yahoo_Finance_API-6001D2?style=for-the-badge&logo=yahoo&logoColor=white)](https://finance.yahoo.com/)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+
+  <br />
+
+  **Une application financière moderne inspirée de Finary, combinant suivi rigoureux de trésorerie et stratégies d'investissement passif (DCA, Bankroll & Rééquilibrage).**
+
+  <br />
+
+  [🚀 Tester l'application en ligne](https://kapi-finance.web.app) • [✨ Fonctionnalités](#-fonctionnalités-clés) • [🛠️ Architecture](#-stack-technique) • [📱 Aperçus](#-aperçus-de-lapplication)
+
+</div>
+
+---
+
+## 📌 Présentation du Projet
+
+**Kapi Finance** est né d'un constat simple : la plupart des applications financières séparent la gestion des dépenses quotidiennes du pilotage des investissements en bourse et cryptomonnaies.
+
+L'objectif de Kapi est d'unifier ces deux piliers au sein d'une seule interface au design **Dark Luxury**, fluide et sécurisée :
+1. **Piloter sa trésorerie mensuelle** : Anticiper le solde bancaire réel à chaque cycle de paie.
+2. **Optimiser son épargne investie** : Suivre ses comptes (PEA, CTO, Livrets, Crypto), automatiser ses achats programmés et suivre les cours mondiaux en direct.
+
+---
+
+## 📱 Aperçus de l'Application
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center"><b>📊 Synthèse du Patrimoine</b></td>
+      <td align="center"><b>💰 Gestion du Budget Mensuel</b></td>
+      <td align="center"><b>⚙️ Stratégie & Allocation</b></td>
+    </tr>
+    <tr>
+      <td><img src="screenshots/patrimoine.png" width="260" alt="Écran Patrimoine"/></td>
+      <td><img src="screenshots/budget.png" width="260" alt="Écran Budget"/></td>
+      <td><img src="screenshots/settings.png" width="260" alt="Paramètres & Allocations"/></td>
+    </tr>
+  </table>
+</div>
+
+---
+
+## ✨ Fonctionnalités Clés
+
+### 💰 1. Kapi Budget (Gestion de Trésorerie)
+- **Double Vision Financière** :
+  - **Planification Théorique** : Revenus estimés vs Dépenses engagées.
+  - **Trésorerie Réelle** : Solde bancaire réel en temps réel et projection exacte du solde en fin de mois.
+- **Cycle de Paie Personnalisé** : Choix du jour de début de mois avec réinitialisation automatique des charges récurrentes.
+- **Tri & Gestion Intuitive** :
+  - Classement dynamique des dépenses de la plus coûteuse à la plus faible.
+  - Suivi des statuts : `Payé` / `À payer` en un clic.
+  - Possibilité d'inclure ou d'exclure temporairement une dépense des calculs.
+  - Menu contextuel fluide par appui long (Modification, Exclusion, Suppression).
+
+### 📈 2. Kapi Invest (Portfolio & Stratégie Patrimoniale)
+- **Arborescence Réaliste** : `Établissement (Courtier / Banque)` ➔ `Enveloppe (PEA, CTO, Livret, Crypto)` ➔ `Actifs`.
+- **Intégration Yahoo Finance en Direct** :
+  - Recherche universelle instantanée par **Nom**, **Ticker** ou code **ISIN**.
+  - Actualisation des cours mondiaux et calcul instantané des plus-values latentes (€ et %).
+- **Courbes & Graphiques Interactifs (`fl_chart`)** :
+  - Graphique consolidé du patrimoine global.
+  - Graphiques de performance dépliables pour chaque établissement et pour chaque actif individuel.
+  - Curseur d'inspection précis avec **date, heure et montant au centime près**.
+- **Deux Modes d'Investissement Stratégiques** :
+  - 🔹 **Profil 1 (Budget Fixe & Bankrolls)** : Allocation en pourcentage du budget mensuel. Les fonds s'accumulent dans des tirelires virtuelles dédiées jusqu'à ce qu'une part entière puisse être achetée.
+  - 🔸 **Profil 2 (DCA en Parts Réelles)** : Fixation d'objectifs en parts (ex: 1 part S&P 500 + 1 part Nasdaq) avec adaptation automatique de l'effort d'épargne aux fluctuations du marché.
+
+---
+
+## 🛠️ Stack Technique
+
+| Domaine | Technologies |
+|---|---|
+| **Frontend** | [Flutter](https://flutter.dev/) (Dart) • Architecture Réactive multiplateforme (Web, Desktop, Mobile) |
+| **Data Viz** | [fl_chart](https://pub.dev/packages/fl_chart) (Graphiques vectoriels interactifs haute performance) |
+| **Backend & Auth** | [Firebase Authentication](https://firebase.google.com/docs/auth) (Gestion sécurisée des comptes utilisateurs) |
+| **Base de Données** | [Cloud Firestore](https://firebase.google.com/docs/firestore) (Synchronisation NoSQL en temps réel avec stratégie de snapshot économique) |
+| **Hébergement** | [Firebase Hosting](https://firebase.google.com/docs/hosting) (Déploiement mondial CDN rapide et SSL) |
+| **API Financière** | [Yahoo Finance API](https://finance.yahoo.com/) (Données de marché en direct & historique sur 1 an) |
+
+---
+
+## 🚀 Installation & Lancement en Local
+
+### Prérequis
+- [Flutter SDK](https://docs.flutter.dev/get-started/install) (`>= 3.0.0`)
+- [Node.js](https://nodejs.org/) & Firebase CLI (`npm install -g firebase-tools`)
+
+### Cloner et exécuter le projet
+
+```bash
+# 1. Cloner le repository
+git clone [https://github.com/ton-profil/kapi_finance.git](https://github.com/ton-profil/kapi_finance.git)
+cd kapi_finance
+
+# 2. Récupérer les dépendances
+flutter pub get
+
+# 3. Lancer l'application en mode local (Chrome ou Windows natif)
+flutter run -d chrome
