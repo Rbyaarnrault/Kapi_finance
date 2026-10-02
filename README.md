@@ -98,3 +98,37 @@ L'objectif de Kapi est d'unifier ces deux piliers au sein d'une seule interface 
 ### Accès
 https://kapi-finance.web.app/
 
+## 🌐 Déploiement & Mise en Production
+Commandes utilisées pour publier la web app:
+```bash
+# 1. Compiler l'application Flutter en version Web optimisée
+flutter build web --release
+
+# 2. Déployer sur Firebase Hosting
+firebase deploy --only hosting
+```
+## 🔒 Sécurité & Bonnes Pratiques
+Authentification sécurisée : Délégation complète de la gestion des identifiants et des sessions à Firebase Auth (tokens JWT sécurisés).
+
+- Architecture Single Document (Firestore) : Optimisation des quotas réseau pour minimiser les lectures/écritures et garantir des temps de chargement quasi-instantanés.
+
+- Isolation des utilisateurs : Chaque compte n'a accès qu'à son propre espace de données via des règles de sécurité Firestore strictes (request.auth.uid == userId).
+
+- Contournement CORS maîtrisé : Relais d'API proxy transparent pour garantir les requêtes Yahoo Finance en environnement navigateur (Web).
+
+## 🗺️ Roadmap & Évolutions Futures
+[ ] Connexion bancaire automatisée via API Open Banking (Agrégation en direct).
+
+[ ] Export comptable des dépenses et de l'historique d'investissement en PDF / CSV.
+
+[ ] Alertes push lors du franchissement de seuils d'achat de parts (Profil 1).
+
+[ ] Déploiement d'applications mobiles natives (Android APK / iOS via App Store).
+
+
+## 👨‍💻 Auteur & Contact
+Développé par Ryan Barrault, Fan d'applications utiles quotidienne, d'applications de jeux et d'animation(informatique graphique)
+
+GitHub : @Rbyaarnrault
+
+LinkedIn : www.linkedin.com/in/ryan-barrault-57090b1a2
