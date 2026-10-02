@@ -35,13 +35,15 @@ L'objectif de Kapi est d'unifier ces deux piliers au sein d'une seule interface 
 <div align="center">
   <table>
     <tr>
-      <td align="center"><b>📊 Synthèse du Patrimoine</b></td>
       <td align="center"><b>💰 Gestion du Budget Mensuel</b></td>
+      <td align="center"><b>📊 Synthèse du Patrimoine</b></td>
+      <td align="center"><b>📊 Graphique Actif</b></td>
       <td align="center"><b>⚙️ Stratégie & Allocation</b></td>
     </tr>
     <tr>
-      <td><img src="screenshots/patrimoine.png" width="260" alt="Écran Patrimoine"/></td>
       <td><img src="screenshots/budget.png" width="260" alt="Écran Budget"/></td>
+      <td><img src="screenshots/patrimoine.png" width="260" alt="Écran Patrimoine"/></td>
+      <td><img src="screenshots/actif.png" width="260" alt="Courbe Actif" /></td>
       <td><img src="screenshots/settings.png" width="260" alt="Paramètres & Allocations"/></td>
     </tr>
   </table>
